@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveCube : MonoBehaviour {
+public class MoveCar : MonoBehaviour {
 
 	public float cubeVelocity; 
+
+
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,5 +16,6 @@ public class MoveCube : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position += Vector3.right * cubeVelocity * Time.deltaTime;
+
 	}
 }
