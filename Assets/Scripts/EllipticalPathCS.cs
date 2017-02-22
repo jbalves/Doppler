@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EllipticalPathCS : MonoBehaviour {
 
-	public Vector3 center = new Vector3(0, 1, 0);
+	public Vector3 center = new Vector3(1, 1, 1);
 	public float radiusA = 5;
 	public float radiusB = 10;
 	public float speed = 1;
@@ -13,6 +13,7 @@ public class EllipticalPathCS : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
 
 	}
 
